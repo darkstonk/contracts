@@ -1,0 +1,17 @@
+[toolchain]
+anchor_version = "1.2.0"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+darkstonk_escrow = "245nAukK64UpLis3BrrjAK46imdA85ESCqBoARgp5T94"
+
+[programs.mainnet]
+darkstonk_escrow = "245nAukK64UpLis3BrrjAK46imdA85ESCqBoARgp5T94"
+
+# Point this at your own keypair.
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"

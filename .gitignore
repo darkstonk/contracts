@@ -1,0 +1,8 @@
+solana/target
+solana/.anchor
+solana/test-ledger
+*.so
+evm/lib
+evm/out
+evm/cache
+.DS_Store
