@@ -68,7 +68,7 @@ forge test --fork-url https://robinhood.drpc.org
 
 ## Status
 
-No third-party audit yet. The contracts have their own test suites (30 Foundry tests; the Solana program is tested end to end, including a coin with a 3% transfer tax, on mainnet). Keep sizes small until an audit is published.
+No third-party audit yet. The contracts have their own test suites (30 Foundry tests; the Solana program is tested end to end, including a coin with a 3% transfer tax, on mainnet), and our internal review is in [SECURITY-REVIEW.md](SECURITY-REVIEW.md). Keep sizes small until an audit is published.
 
 ## License
 
